@@ -1,0 +1,106 @@
+import numpy as np
+from scipy.fftpack import fft, fftfreq
+%pylab inline
+import matplotlib.pyplot as plt
+from numpy import pi
+
+"""
+Modulo que procesa informacion de encefalogramas a partir de la transformada de Fourier
+Authors: Juliana Ayala- Henry Martinez
+"""
+
+def importarDatos(filename):
+    """
+    Carga el archivo con los datos del encefalograma
+
+    Input: filename.
+    Output: arreglo con los datos
+    """
+
+def espectroPot(data):
+    """
+    Toma los valores del arreglo para encontrar el espectro de potencias
+    Input: 
+    - data: arreglo de los datos   
+    Output:
+    - fft_datos: calcula la FFT de los datos
+    - fft_x: norma de FFT al cuadrado
+    - frecuencia: arreglo con las frecuencias para cada señal
+     espectro=fft_x
+     return espectro
+
+    """
+def graficaPot (frecuencia, espectro):
+    """
+    Hace la grafica de la potencia contra frecuencia.
+
+    Input: 
+    - frecuencia: arreglo con las frecuencias para cada señal
+    - espectro: arreglo con las potencias para cada señal
+    Output:
+    - plot: grafica P vs f
+    """
+    
+def maximos (espectro):
+    """
+    Toma los 10 valores maximos del espectro de potencias, vuelve el resto cero
+
+    Input:
+    - espectro
+    Output:
+    - max: 10 valores maximos del espectro de potencia 
+    - ceros: usa max para comprar los demas valores y los que no sean iguales los vuelve cero
+    - esprec: espectro reconstruido
+    """
+    return esprec
+
+def comparar (espectro, esprec):
+    """
+    Grafica los datos del espectro inicial con los del espectro reconstruido juntos
+
+    Input:
+    -espectro
+    -esprec
+    Output:
+    -plot2: grafica de espectro y esprec en la misma ventana contra frecuencia
+
+punto 2
+
+def importarDatos(filename):
+    """
+    Carga el archivo con los datos de las manchas solares
+
+    Input: filename.
+    Output: arreglo con los datos
+    """
+def interpolacion(data)
+    """
+    Toma los datos del arreglo y los interpola mediante tres métodos diferentes de manera sucesiva para lograr un espaciado equidistante en el tiempo
+    Input:
+    data: arreglo de los datos
+    Out:
+    IntLin: Interpola los datos linealmente
+    IntCon: Usa la interpolacion constante para los datos
+    IntCub: Usa la interpolacion cubica para los datos
+    
+def espectroPot(IntLin, IntCon, IntCub):
+    """
+    Toma los valores de los arreglos de interpolaciones para encontrar el espectro de potencias en cada caso
+    Input: 
+    IntLin: Interpola los datos linealmente
+    IntCon: Usa la interpolacion constante para los datos
+    IntCub: Usa la interpolacion cubica para los dato   
+    Output:
+    - fft1_datosIL: calcula la FFT de los datos interpolados linealmente
+    - fft2_datosICo: calcula la FFT de los datos interpolados de manera constante
+    - fft3_datosICu: calcula la FFT de los datos interpolados de manera cubica
+    - fft_x1: norma de FFT1 al cuadrado
+    - fft_x2: norma de FFT2 al cuadrado
+    - fft_x3: norma de FFT3 al cuadrado
+    - frecuencia: arreglo con las frecuencias para cada señal
+     espectro1=fft1_x
+     espectro2=fft2_x
+     espectro3=fft3_x
+     return espectro1
+     return espectro2   
+     return espectro
