@@ -1,0 +1,5 @@
+Primer punto.
+
+De acuerdo a lo que se gráfica en el espectro de potencias de las señales el cambio es muy pequeño por lo que en una gráfica normal no se notaría mucho, en otro tipo de graficas (que no fueron realizadas) como una logarítmica el cambio se vería claro. Apesar de que el espectro es diferente tienden a llevar un mismo patrón.
+
+Aunque no teniamos el dato de comparación ni la hipotesis nula se puede deducir que con tan pocos datos tomados, reconstruir la señal original no será facil y estas no quedarán iguales
